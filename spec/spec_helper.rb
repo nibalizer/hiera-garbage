@@ -1,4 +1,3 @@
-TEST_LDIF_FILE = 'spec/fixtures/testing.ldif'
 TEST_HIERA_CONF = 'spec/fixtures/test-hiera.yaml'
 
 require 'rspec'

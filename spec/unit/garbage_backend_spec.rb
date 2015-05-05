@@ -1,9 +1,10 @@
 require 'spec_helper'
-require 'hiera/backend/ldap_backend'
+#PETEMS should fix this :P
+require 'hiera/backend/garbage_backend'
 
 class Hiera
   module Backend
-    describe Ldap_backend do
+    describe garbage_backend do
 
       before do
         Hiera::Config.load(TEST_HIERA_CONF)

@@ -13,11 +13,4 @@ else
   gem 'hiera', :require => false
 end
 
-# Test Against Multiple net-ldap gems in Travis
-if netldapversion = ENV['NETLDAP_GEM_VERSION']
-  gem 'net-ldap', netldapversion, :require => false
-else
-  gem 'net-ldap', :require => false
-end
-
 # vim:ft=ruby

@@ -1,10 +1,2 @@
 ---
-:ldap:
-  :base: 'dc=example,dc=org'
-  :host: 'localhost'
-  :port: 3897
-  :encryption:
-  :auth:
-    :method: :simple
-    :username: uid=aa729,ou=people,dc=example,dc=org
-    :password: smada
+:garbage:

@@ -24,7 +24,6 @@ class Hiera
         Hiera.debug(answer)
 
         return answer
-        end
       end
     end
   end

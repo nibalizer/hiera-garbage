@@ -19,7 +19,6 @@ class Hiera
           answer['garbage'] = 'garbage'
         else
           answer = "garbage"
-          break
         end
         Hiera.debug(answer)
 
